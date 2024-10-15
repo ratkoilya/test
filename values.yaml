@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: ilyaratko/podmanager
-  tag: "latest"
+  tag: "1.1.1"
 
 # redisImage: "r-int.hyperion.mos.ru/redis:7.0-alpine"
 redisImage: "redis:7.0-alpine"
@@ -15,7 +15,7 @@ env:
   baseUrl: "https://meta2.mos.ru/"
   freeStacksCount: 3
   maxStacksCount: 5
-  configFile: "/app/token.json"
+  configFile: "/app/kubeconfig"
   namespace: "default"
   ueMainImage: "hashicorp/http-echo"
   ueSignalingImage: "jmalloc/echo-server"
