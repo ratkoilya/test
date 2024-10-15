@@ -14,3 +14,4 @@ data:
     UE_MAIN_IMAGE={{ .Values.env.ueMainImage }}
     UE_SIGNALING_IMAGE={{ .Values.env.ueSignalingImage }}
     UE_SIGNALING_PORT={{ .Values.env.ueSignalingPort }}
+    UE_SIGNALING_CONTAINER_PORT={{ .Values.env.UE_Signaling_Container_Port }}
