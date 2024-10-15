@@ -15,7 +15,7 @@ env:
   baseUrl: "https://meta2.mos.ru/"
   freeStacksCount: 3
   maxStacksCount: 5
-  configFile: ""
+  configFile: "/app/token.json"
   namespace: "default"
   ueMainImage: "hashicorp/http-echo"
   ueSignalingImage: "jmalloc/echo-server"
