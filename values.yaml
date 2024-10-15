@@ -12,7 +12,6 @@ ingress:
   host: "podmanager.local"
 
 env:
-  baseUrl: "https://meta2.mos.ru/"
   freeStacksCount: 3
   maxStacksCount: 5
   configFile: "/app/kubeconfig"
