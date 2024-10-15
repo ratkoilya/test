@@ -19,5 +19,5 @@ env:
   ueMainImage: "hashicorp/http-echo"
   ueSignalingImage: "jmalloc/echo-server"
   ueSignalingPort: 8080
-  BASE_URL: "wss://signaling.meta.mos.ru/"
-  UE_SIGNALING_CONTAINER_PORT: 80
+  baseUrl: "wss://signaling.meta.mos.ru/"
+  UE_Signaling_Container_Port: 80
