@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: {{ .Chart.Name }}-ingress
   annotations:
-    argocd.argoproj.io/ignore-healthcheck: "true"
+
 spec:
   ingressClassName: citrix
   rules:
